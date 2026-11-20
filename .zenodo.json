@@ -1,0 +1,22 @@
+{
+  "title": "social-data-experiments: rules, a template and data ethics for small reproducible checks in computational social science",
+  "description": "<p>A place for small, reproducible checks in computational social science. An experiment is added only when it goes by joint research, JOSS, a conference presentation or a diamond open access venue, the routes that rule 15 of cpsbvbng26-dotcom names; the repository is not part of the self-taught series. It holds the rules, a template of an experiment (question, route, data source and licence, method, a plan fixed in advance, code, results, limits, disclosure) with its fields, and the data ethics: no personal data, published data only, licences checked. There are no experiments yet, and none are made up.</p><p>計算社会科学の小さな検証を、再現できる形で置くための場所です。</p>",
+  "upload_type": "other",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "jpn",
+  "creators": [
+    {
+      "name": "Nemoto, Takuya",
+      "orcid": "0009-0000-1406-0547"
+    }
+  ],
+  "keywords": [
+    "computational social science",
+    "reproducibility",
+    "preregistration",
+    "data ethics",
+    "deterministic verification"
+  ],
+  "notes": "Claude Code (Anthropic) was used to write the rules, the templates, the data ethics, the README text and the checks, at the author's request. The author is responsible for the content. Claude is not an author. The text and the templates are CC BY 4.0 (LICENSE); the check scripts are MIT (LICENSE-CODE). The licence field of this record covers the text and the templates only."
+}
