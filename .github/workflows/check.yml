@@ -1,0 +1,27 @@
+name: 検査
+
+# push と PR のたびに回す。雛形の見出しと欄・実験の欄と経路と日付・データの置き場・決めごと・書き方・写しを verification/check.py が確かめ、
+# 続けて同じ検査を一つずつ壊し、どれも落ちることを確かめる（--break）。外への接続は使わない。
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: 雛形・実験・データの倫理・書き方・写し・壊して確かめる
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: '3.11'
+      - run: python verification/check.py
+      - run: python verification/check.py --break
