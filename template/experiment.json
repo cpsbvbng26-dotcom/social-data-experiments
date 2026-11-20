@@ -1,0 +1,18 @@
+{
+  "_": [
+    "実験の欄の雛形です。experiments/<名>/experiment.json に写して埋めます。verification/check.py が、各実験の欄を見ます。",
+    "status は planned・running・done・withdrawn のどれか。route は collaboration・joss・conference・diamond-oa のどれか。personal_data は none だけ。",
+    "plan_fixed は事前の計画を固めた日。results_written は結果を書いた日で、plan_fixed より前にはなりません。結果が無いうちは null です。"
+  ],
+  "name": null,
+  "status": "planned",
+  "route": null,
+  "question": null,
+  "data_source": null,
+  "data_licence": null,
+  "licence_checked": null,
+  "personal_data": "none",
+  "plan_fixed": null,
+  "results_written": null,
+  "code": null
+}
