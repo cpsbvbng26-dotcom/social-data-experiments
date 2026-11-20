@@ -1,0 +1,18 @@
+{
+  "_": [
+    "散文に書いた数の台帳です（cpsbvbng26-dotcom の決めごと 5）。verification/check.py は README と雛形から数を拾い、ここのどれかに当たらなければ落ちます。",
+    "dates は、書いてよい日です。fixed は、決めた値とその形です。counts は、数えて確かめる数で、re の一つ目の括弧が数、count が数え方の名です。"
+  ],
+  "dates": {
+    "2026-11-20": "この場所を置いた日"
+  },
+  "fixed": [
+    { "re": "CC BY 4\\.0", "why": "LICENSE の版" },
+    { "re": "0009-0000-1406-0547", "why": "運営者の ORCID iD" },
+    { "re": "決めごと 1[45]|rule 1[45]", "why": "cpsbvbng26-dotcom の決めごとの番号（14 はダイヤモンド・オープンアクセス、15 は独学の系列）" }
+  ],
+  "counts": [
+    { "re": "実験は (\\d+) 件です", "count": "experiments" },
+    { "re": "There are (\\d+) experiments", "count": "experiments" }
+  ]
+}
