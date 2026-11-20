@@ -9,6 +9,8 @@ There are 0 experiments now.
 Neither experiments nor data are made up to fill it.
 The place was set up on 2026-11-20.
 
+The archive is on Zenodo. The DOI of the first version is [`10.5281/zenodo.24397158`](https://doi.org/10.5281/zenodo.24397158), and the DOI common to all versions is [`10.5281/zenodo.24397157`](https://doi.org/10.5281/zenodo.24397157).
+
 ## Rules
 
 - Under rule 15 of cpsbvbng26-dotcom, the self-taught work is what was done up to the first undergraduate year.
